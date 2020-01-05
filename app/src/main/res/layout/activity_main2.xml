@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vaish.ngo.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Addngos"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="129dp" />
+        <Button
+            android:id="@+id/Viewngos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Viewngos"
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="129dp" />
+
+        <Button
+            android:id="@+id/viewusers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Users" />
+
+        <Button
+            android:id="@+id/viewbooking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Bookings" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
