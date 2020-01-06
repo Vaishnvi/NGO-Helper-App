@@ -1,1 +1,1 @@
-Contains all UI layout files in application.
+Contains code for all UI layout files in application.
